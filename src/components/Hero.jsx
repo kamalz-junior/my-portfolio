@@ -3,7 +3,7 @@ import Header from "./Header";
 
 const Hero = () => {
     return (
-       <section id="home" className="pt-28 lg:pt-36">
+       <section id="home" className="pt-28 lg:pt-16">
         <div className="container items-center lg:grid lg:grid-cols-2 lg:gap-10">
             <div>
                 <div className="flex items-center gap-3">
@@ -45,11 +45,9 @@ const Hero = () => {
             </div>
 
             <div className="hidden lg:block">
-                <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-65% rounded-[60px] overflow-hidden">
+                <figure className="w-full max-w-[440px] ml-auto bg-gradient-to-t from-sky-400 via-25% via-sky-400/40 to-75% rounded-[60px] overflow-hidden scale-90">
                     <img 
-                        src="/images/hero-banner.png" 
-                        width={659} 
-                        height={800} 
+                        src="/images/hero-banner.png"
                         alt="kamal" 
                         className="w-full"/>
                 </figure>

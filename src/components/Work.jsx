@@ -17,7 +17,7 @@ const works = [
       imgSrc: '/images/project-3.jpg',
       title: 'Chill app',
       tags: ['Development', 'API'],
-      projectLink: 'https://chill-app-react.vercel.app/'
+      projectLink: 'https://chill-client.vercel.app/'
     }
   ];
 
